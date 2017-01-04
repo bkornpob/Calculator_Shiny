@@ -27,7 +27,9 @@ shinyUI(fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
        h3("Result ="),
-       textOutput("result")
+       textOutput("result"),
+       h3("-------------------------------------------"),
+       includeHTML("http://kbcubby.neocities.org/doc_Calculator.html")
     )
   )
 ))
